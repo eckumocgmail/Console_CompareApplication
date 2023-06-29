@@ -4,9 +4,15 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Console_InputApplication\Console_InputApplication.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <OutDir>D:\System-Config\MyApplications\Console_CompareApplication</OutDir>
+
   </PropertyGroup>
 
 </Project>
